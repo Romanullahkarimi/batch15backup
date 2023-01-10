@@ -1,0 +1,30 @@
+ we can use to combine multipale boolean value
+
+        logical operator only use for boolean value. not for String,char
+        ,int.
+         operation operators: !()not ||(or) &&(and)
+         ! if something is true it will make it false and false make it true
+
+         || or condition say if one condition is true all result is ture
+
+         && and condition only true all the condition is true
+
+         why should we learn logical operators?
+         we greatly simplify the logic if we use these operators
+
+         what is the syntax?
+
+          they only work with bolean data type
+          if (! condtion)
+          if condtion1 || condtion 2)
+          if condition1 && condition2)
+
+
+what is switchcase condition?
+
+its work like ifElseIf condition
+ it's very fast
+
+1) we can only use byte short int char string
+ 2)we can't  use  double float long
+ 3)we can't use relatinal operators in switch case
