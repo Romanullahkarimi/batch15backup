@@ -10,8 +10,8 @@ public class whileLoop6 {
             if (number > 3) {
                 condition = false;
             }
-        }
-        number++;
+        } number++;
+
 
         int number1 = 2;
         while (number < 10) {
@@ -36,4 +36,4 @@ public class whileLoop6 {
 
         }
     }
-}
+    }

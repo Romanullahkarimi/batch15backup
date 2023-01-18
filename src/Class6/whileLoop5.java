@@ -12,8 +12,8 @@ public class whileLoop5 {
             if (number>3);{
                 flaq=false;
 
-        }
-        number++;
+        }number++;
+
     }
 
 
