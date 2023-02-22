@@ -11,7 +11,7 @@ public class ForEachLoopDemo2 {
 
         }
 
-        //replace all odd numbers in the this array with the help of a normal loop
+        //replace all odd numbers in  this array with the help of a normal loop
         for (int i = 0; i < arr.length; i++) {
 
 
