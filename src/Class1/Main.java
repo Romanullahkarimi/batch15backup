@@ -1,9 +1,22 @@
 package Class1;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Wellcome to GitHub  SDET BATCH 15 ");
-        System.out.println("you will learn too much things");
+import java.io.FileInputStream;
+import java.io.IOException;
+
+public class main {
+    public static void main(String[] args) throws IOException {
+        String path="C:\\Users\\Romanullah\\Desktop\\class5\\text.xlsx";
+        FileInputStream fileInputStream=new FileInputStream(path);
+        XSSFWorkbook xssfWorkbook=new XSSFWorkbook(fileInputStream);
+        Sheet sheet=xssfWorkbook.getSheet("Sheet1");
+        Row row=sheet.getRow(0);
+        System.out.println(row.getCell(0));
+
 
     }
+
+
 }
